@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation and Navigation</title>
+    <link rel="icon" type="image/png" href="./diverseground.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/4074dbb482.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Menu Overlay -->
+    <div class="overlay overlay-slide-left" id="overlay">
+      <!-- Menu Items -->
+      <nav>
+        <ul>
+          <li id="nav-1" class="slide-out-1"><a href="#">Home</a></li>
+          <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
+          <li id="nav-3" class="slide-out-3"><a href="#skills">Skills</a></li>
+          <li id="nav-4" class="slide-out-4">
+            <a href="#projects">Projects</a>
+          </li>
+          <li id="nav-5" class="slide-out-5"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Menu Bars -->
+    <div class="hamburger" id="hamburger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <!-- Sections -->
+    <section
+      id="home"
+      data-aos="zoom-in-up"
+      data-aos-offset="200"
+      data-aos-delay="20"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out-cubic"
+      data-aos-mirror="true"
+      data-aos-once="false"
+    >
+      <a href="https://onefrankdesign.github.io/portfolio/" target="_blank"
+        >One Frank Design</a
+      >
+      <h1>Scroll <i class="fas fa-grin"></i></h1>
+    </section>
+    <section id="about">
+      <h1
+        data-aos="fade"
+        data-aos-offset="100"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out-cubic"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      >
+        Learn More About Me
+      </h1>
+    </section>
+    <section id="skills">
+      <h1
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out-cubic"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      >
+        These Are My Strengths
+      </h1>
+    </section>
+    <section id="projects">
+      <a
+        href="https://github.com/OneFrankDesign?tab=repositories"
+        target="_blank"
+      >
+        <h1
+          class="projects"
+          data-aos="zoom-in-left"
+          data-aos-offset="100"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out-cubic"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
+          These Are My Results
+        </h1></a
+      >
+    </section>
+    <section id="contact">
+      <h1
+        data-aos="fade"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out-cubic"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      >
+        Available Anytime
+      </h1>
+    </section>
+    <!-- Script -->
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
